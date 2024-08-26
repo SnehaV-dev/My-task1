@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    
+    margin:50px;
+    padding:20px;
+} 
+h4{
+    position:relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h4:after{
+    content:'';
+    position: absolute;
+    width:50px;
+    height:2px;
+    background-color:rgb(247, 197, 81);
+    top:20px;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.title p{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.team-row{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.team-col{
+    width:25%;
+
+} 
+.team-col{
+    padding:12px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+}
+a{  
+
+    padding:5px 15px;
+    border-radius: 10px;
+    background-color: orangered;
+    text-decoration: none;
+    color:rgb(240, 238, 238);
+    font-size: 18px;
+    
+}
+.card-content{
+    line-height: 35px;
+}
+span{
+    color:rgb(131, 136, 136);
+}
+.card-title{
+    background-color: rgb(177, 183, 183);
+    height:40px;
+    
+}
+.footer{
+    background-color: rgb(177, 183, 183);
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title:hover{
+    background-color: orangered;
+}

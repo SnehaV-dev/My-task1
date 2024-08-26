@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aqua;
+}
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    margin:2em;
+    align-items: center;
+}
+img{
+    height:20vh;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+
+}
+.menu li{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: block;
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+    padding: 10px;
+}

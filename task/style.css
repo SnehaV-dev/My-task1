@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(16, 16, 96);
+    /* height:40px; */
+    /* text-align: center; */
+}
+.main-nav{
+    display: flex;
+    margin:5em;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color:aliceblue
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end
+    
+}
+.menu li{
+    list-style-type: none;
+    display: block;
+}
+
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    padding: 10px;
+
+}
+.one{
+    border-style: solid;
+    border-color: rgb(173, 173, 214);
+    border-radius: 20px;
+}
+.two a{
+    color:blue !important;
+     
+}

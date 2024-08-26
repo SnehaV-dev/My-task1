@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Homemade Apple", cursive;
+}
+section{
+    background-color: white;
+    padding: 80px;
+    margin:40px;
+    width: 100%;
+    height:60vh;
+    
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+.row{
+    display: flex;
+    gap:10%;
+}
+.d-banner{
+    display: flex;
+    gap:5%;
+    align-items: center;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color:blanchedalmond;
+    background-color: red;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.ico-wrap{
+    display: inline-flex;
+    width:35px;
+    height: 35px;
+    border: solid red;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin:15px; */
+    
+}
+.video{
+    display: inline-flex;
+    
+}
